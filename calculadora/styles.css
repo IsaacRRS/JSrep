@@ -53,5 +53,6 @@
 
 i {
     padding: 18px;
-    box-shadow: -10px -10px 18px rgba(70, 6, 56, 0.616), 8px 8px 18px rgba(62, 5, 74, 0.792);
+    box-shadow: -10px -10px 18px rgba(69, 59, 67, 0.264), 8px 8px 18px rgba(96, 88, 98, 0.284);
+    pointer-events: none;
 }
