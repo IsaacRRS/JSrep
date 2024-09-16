@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.caixa {
+    height: 100vh;
+    width: 100%;
+    background: rgb(21, 30, 94);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.corpo {
+    background: rgb(53, 45, 45);
+    border-radius: 25px;
+    padding: 25px;
+}
+
+.resultado {
+    display: flex;
+    margin: 24px 0;
+    justify-content: flex-end;
+}
+
+.resultado input {
+    flex: 1;
+    font-size: 48px;
+    text-align: right;
+    box-shadow: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #276228d2 !important;
+    text-align: left;
+}
+
