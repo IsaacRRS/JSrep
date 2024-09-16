@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.caixa {
+    width: 100%;
+    background: #281a75;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#direita, #esquerda {
+    width: 280px;
+    margin: 18px;
+    border: 2px solid white;
+    min-height: 380px;
+}
+
+.item {
+    background: rgb(26, 25, 25);
+    color: white;
+    cursor: grab;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    border-radius: 18px;
+}
+
+i {
+    color: white;
+    width: 30px;
+}
