@@ -35,8 +35,15 @@
     padding: 0 32px 32px;
     color: #212020;
     text-align: center;
+    visibility: hidden; /* deixa o popup invisível caso não haja clique */
+    transition: transform 0.3s, top 0.5s; /* transição para melhor efeito visual */
 }
 
+.animacao {
+    visibility: visible; /* o popup fica vísivel após o clique */
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+}
 
 .salto i { 
     width: 200px;
